@@ -1,0 +1,53 @@
+.list {
+    width: 100%;
+    height: 540px;
+}
+
+#chat-list {
+    height: 530px;
+    overflow: scroll;
+}
+
+.chat {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+}
+
+.chat>.profileImg {
+    width: 50px;
+    height: 60px;
+    float: left;
+    position: relative;
+}
+
+.chat>.profileImg>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    margin-top: 5px;
+}
+
+.chat>.names {
+    height: 60px;
+}
+
+.chat>.names>p {
+    margin: 10px 0;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.chat>.names>p>span {
+    font-size: 10pt;
+    color: gray;
+    float: right;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.chat:hover {
+    background: #eee;
+    cursor: pointer;
+}
