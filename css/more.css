@@ -19,6 +19,9 @@ div.logo>img {
     left: 0;
     right: 0;
     bottom: 0;
+    animation-duration: 3s;
+    animation-name: scaleUp;
+    animation-iteration-count: 1;
 }
 
 article.list {
@@ -40,4 +43,16 @@ div.more {
 div.more:hover {
     background: #eee;
     cursor: pointer;
+}
+
+@keyframes scaleUp {
+    from {
+        width: 0;
+        height: 0;
+    }
+
+    to {
+        width: 150px;
+        height: 150px;
+    }
 }
