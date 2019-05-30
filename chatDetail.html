@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inwon`s Talk</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/chatdetail.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="fix"></div>
+        <nav>
+            <div id="profileImg"><img src="./assets/img/tmp.png"></div>
+            <div id="names">
+                <p>홍길동</p>
+                <p>2</p>
+            </div>
+            <div id="btns">
+                <ul>
+                    <li>
+                        <div class="circle"><img src="assets/img/detail/search.png"></div>
+                    </li>
+                    <li>
+                        <div class="circle"><img src="assets/img/detail/notification.png"></div>
+                    </li>
+                    <li>
+                        <div class="circle"><img src="assets/img/detail/asset.png"></div>
+                    </li>
+                    <li>
+                        <div class="circle"><img src="assets/img/detail/more.png"></div>
+                    </li>
+                </ul>
+            </div>
+            <div id="back">
+                <a href="javascript:history.go(-1)"><img src="assets/img/back.png"></a>
+            </div>
+        </nav>
+        <section>
+            <article>
+                <div id="chatlist">
+                </div>
+            </article>
+            <article>
+                <div class="userinput">
+                    <textarea name="userInput" id="userInput" WRAP=VIRTUAL></textarea>
+                    <button onclick="writeMsg()">전송</button>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <p>Copyright 2019.나인원.All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/chatdetail.js"></script>
+</body>
+
+</html>
