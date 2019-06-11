@@ -8,8 +8,6 @@ for (var i = 0; i < 100; i++) {
     ele.innerHTML = friendHtml;
     ele.setAttribute("onclick", "startChat();");
     document.getElementById("friends").appendChild(ele.cloneNode(true));
-
-
 }
 
 function startChat() {

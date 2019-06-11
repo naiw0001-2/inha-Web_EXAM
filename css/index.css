@@ -1,5 +1,7 @@
 .app {
     margin: 0 auto;
+    position: relative;
+    top: 20px;
     width: 402px;
     height: 610px;
     background: white;
