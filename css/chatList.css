@@ -2,48 +2,63 @@ a {
     color: black;
 }
 
+.app {
+    position: relative;
+}
+
 .list {
     width: 100%;
-    height: 540px;
+    /* height: 530px; */
 }
 
 #chat-list {
-    height: 530px;
+    height: 528px;
     overflow: scroll;
 }
 
 .chat {
     width: 100%;
     height: 60px;
-    display: inline-block;
-    position: relative;
 }
 
 .chat .profileImg {
     width: 50px;
     height: 60px;
-    float: left;
-    position: relative;
+    display: inline-block;
 }
 
 .chat .profileImg>img {
-    width: 50px;
+    /* width: 50px; */
     height: 50px;
     border-radius: 30%;
     margin-top: 5px;
 }
 
 .chat .names {
-    height: 60px;
+    width: 270px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    position: relative;
 }
 
-.chat .names>p {
-    margin: 10px 0;
+.chat .foo {
+    margin-left: 10px;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    margin-top: 15px;
+}
+
+.chat .names>.foo>p {
+    width: 100%;
+    position: relative;
     font-size: 10pt;
     font-weight: 400;
 }
 
-.chat .names>p>span {
+.chat .names>.foo>p>span {
     font-size: 10pt;
     color: gray;
     float: right;

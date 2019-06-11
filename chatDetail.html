@@ -13,7 +13,6 @@
 
 <body>
     <div class="app">
-        <div class="fix"></div>
         <nav>
             <div id="profileImg"><img src="./assets/img/tmp.png"></div>
             <div id="names">
@@ -42,6 +41,15 @@
         </nav>
         <section>
             <article>
+                <div id="notice">
+                    <details>
+                        <summary>채팅방 공지</summary>
+                        <p style="font-size: 0.8em">공지내용</p>
+                        </detail>
+                </div>
+            </article>
+
+            <article>
                 <div id="chatlist">
                 </div>
             </article>
@@ -52,10 +60,14 @@
                 </div>
             </article>
         </section>
-        <footer>
-            <p>Copyright 2019.나인원.All rights reserved.</p>
-        </footer>
+
     </div>
+    <footer>
+        <p>Copyright 2019.나인원.All rights reserved.</p>
+    </footer>
+    <audio id="alarm">
+        <source src="./assets/audio/katalk.mp3" type="audio/mpeg">
+    </audio>
     <script src="js/chatdetail.js"></script>
 </body>
 

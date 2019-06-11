@@ -1,25 +1,16 @@
 .app {
     margin: 0 auto;
     width: 402px;
-    height: 670px;
+    height: 610px;
     background: white;
     border: 1px solid black;
-}
-
-.fix {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 10px;
-    height: 10px;
-    background: yellow;
 }
 
 nav {
     display: block;
     position: relative;
     width: 60px;
-    height: 610px;
+    height: 608px;
     background: rgb(65, 57, 52);
     float: left;
 }
@@ -51,7 +42,7 @@ nav ul li a img {
 section {
     width: 340px;
     float: right;
-    height: 610px;
+    height: 608px;
     padding: 10px 10px 0px 10px;
 }
 
@@ -166,9 +157,10 @@ div.all-friend:hover {
     background: #eee;
 }
 
+/* 
 footer {
     display: table;
-    /* margin: auto auto; */
+     margin: auto auto; 
     width: 402px;
     height: 60px;
     background: rgb(65, 57, 52);
@@ -181,3 +173,4 @@ footer>p {
     color: #fff;
     font-size: 12pt;
 }
+*/
